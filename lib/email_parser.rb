@@ -12,7 +12,7 @@ class EmailAddressParser
 
   
   def parse
-    email = @email_addresses.split(/[, ]/):skip_blanks :true 
+    email = @email_addresses.split(/[, ]/).:skip_blanks :true 
     email 
   end
     
