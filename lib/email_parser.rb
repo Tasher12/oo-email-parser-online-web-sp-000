@@ -13,7 +13,7 @@ class EmailAddressParser
   
   def parse
     email = @email_addresses.split(/[, ]/)
-    email = CSV.parse(str, skip_blanks: true)
+    email 
   end
     
 end
